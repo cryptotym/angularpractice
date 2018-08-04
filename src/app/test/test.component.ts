@@ -39,10 +39,9 @@ import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
         </ng-template>
         <h2>{{date}}</h2>
         <h2>{{date | date:'short'}}</h2>
-        <h2>{{date | date:'longDate'}}</h2>
+        <h2>{{date | date:'long'}}</h2>
         <h2>{{date | date:'shortDate'}}</h2>
         <h2>{{date | date:'shortTime'}}</h2>
-
       </td>
       <td width="50%">
         <div [ngSwitch]="color">
