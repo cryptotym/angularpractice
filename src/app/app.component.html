@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    This Message is in app.component.html<br>
+    {{message}}
+  </h1>
+  <!--<div class="app-test">
+  </div>--><!-- can use div class or brackets in test.components.ts-->
+</div>
+<app-test (childEvent)="message=$event" [parentData]="name3"></app-test>
